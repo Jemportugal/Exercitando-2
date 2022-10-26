@@ -1,0 +1,116 @@
+:root {
+
+    --azulClaro : #2d5474;
+    --azulEscuro: #2e4a64;
+    --branco: #fefefe;
+    --fonte: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--fonte);
+    color: var(--azulEscuro);
+}
+    
+/* pai */
+.cabecalho {
+    background:  var(--azulClaro);
+
+    
+}
+
+/* logo */
+.cabecalho__logo {
+   width: 200px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+/* menu */
+.cabecalho__menu {
+    background: var(--azulEscuro);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    
+} 
+
+/* lista */
+/* .cabecalho__item-menu {
+    /* list-style: none; 
+}*/
+ 
+
+.cabecalho__item-link {
+    text-decoration: none;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+main {
+    font-weight: 500;
+    padding-top: 3px;
+}
+
+.cabecalho__logo-branco {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.endereco_rodape{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rodape_social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.rodape_imagem {
+    width: 40px;
+}
+
+.titulo_cursos {
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.menu_cursos {
+    text-align: center;
+    padding-bottom: 15px;
+   
+}
+
+.menu_cursos-lista {
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.menu_cursos-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--azulEscuro);
+}
+
+.titulo_music {
+    text-align: center;
+}
